@@ -7,7 +7,8 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>Brett Wilcox</title>
-
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <!-- Bootstrap Core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
@@ -16,6 +17,14 @@
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <!-- Google Adsense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-0824501471021286",
+      enable_page_level_ads: true
+    });
+  </script>
 </head>
 
 <body id="page-top">
@@ -36,9 +45,6 @@
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#skills">Skills</a>
-      </li>
-      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
       </li>
       <li class="sidebar-nav-item">
@@ -52,7 +58,7 @@
     <div class="container text-center my-auto">
       <h1 class="mb-1">Brett Wilcox</h1>
       <h2 class="mb-5">Software Engineer</h2>
-      <a class="btn btn-outline-light btn-xl js-scroll-trigger" href="#about">View Portfolio</a>
+      <a class="btn btn-outline-light btn-xl js-scroll-trigger" href="#portfolio">View Portfolio</a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -69,18 +75,6 @@
     </div>
   </section>
 
-  <!-- Skills -->
-  <section class="content-section bg-light" id="skills">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>Skills</h2>
-          
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
     <div class="container">
@@ -88,63 +82,57 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+      <div class="row gutters">
+        <div class="col-lg-6 mb-4">
+          <a class="portfolio-item" href="https://desertidaho.com/" target="_blank">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Stationary</div>
-                <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                <div class="h2" style="text-shadow: 2px 2px black;">Desert Idaho</div>
+                <p class="mb-0" style="text-shadow: 2px 2px black;">Poems</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            <img class="img-fluid" src="img/desertidaho.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6 mb-4">
+          <a class="portfolio-item" href="https://merrynakamoto.com/" target="_blank">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2" style="text-shadow: 2px 2px black;">Merry Nakamoto</div>
+                <p class="mb-0" style="text-shadow: 2px 2px black;">Cryptocurrency News and Information</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/merrynakamoto.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="https://mathematicsnotebooks.com/" target="_blank">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Ice Cream</div>
-                <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                <div class="h2" style="text-shadow: 2px 2px black;">Mathematics Notebooks</div>
+                <p class="mb-0" style="text-shadow: 2px 2px black;">1,255 pages of university math notes</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            <img class="img-fluid" src="img/mathematicsnotebooks.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="https://listenup.ninja/" target="_blank">
             <div class="caption">
               <div class="caption-content">
-                <div class="h2">Strawberries</div>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                <div class="h2" style="text-shadow: 2px 2px black;">Listen Up</div>
+                <p class="mb-0" style="text-shadow: 2px 2px black;">A free music previewer</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
-            <div class="caption">
-              <div class="caption-content">
-                <div class="h2">Workspace</div>
-                <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+            <img class="img-fluid" src="img/listenup.png" alt="">
           </a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Map -->
-  <div id="contact" class="map">
-    <div style="width: 100%; height: 450px;"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=43.6166163,%20-116.200886+(Brett%20Wilcox)&amp;t=&amp;z=3&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-    <br />
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
+  <!-- Footer/Contact -->
+  <footer class="footer text-center" id="contact">
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
@@ -176,14 +164,11 @@
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
-
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
 
